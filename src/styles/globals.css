@@ -1,0 +1,74 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+.home-blogs{
+  width: 30vw;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(206, 14, 206);
+  color: white;
+}
+.nav{
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.link{
+color: white;  
+}
+.home-blogs{
+ 
+  margin: 20px;
+}
+.main-form{
+  width: 20vw;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.main-form input{
+  padding: 6px;
+  border-radius:4px;
+  border: 1px solid gray;
+  margin-top: 10px;
+  
+}
+.log-heading{
+  position: absolute;
+  left: 42%;
+  top: 27%;
+  font-size: 40px;
+}
+.btn{
+  padding: 6px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  margin-left: 16%;
+  margin-top: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
